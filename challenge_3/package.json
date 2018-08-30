@@ -1,0 +1,31 @@
+{
+  "name": "challenge_3",
+  "version": "1.0.0",
+  "description": "Mini_Apps_Challenge_3",
+  "main": "server.js",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "node": "^10.9.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "babel client --watch --out-dir public --presets=env,react --source-maps inline",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hrsf101-mini-apps-1"
+  },
+  "author": "Karin Hsu",
+  "license": "ISC"
+}
